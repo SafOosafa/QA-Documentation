@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [QA Strategy](strategy.md)
-=======
-# Summary
-
-* [Introduction](README.md)
-* [QA Strategy](strategy.md)
->>>>>>> 76f164f (تفعيل التنسيق العصري وتوثيق أداء YOLOv8)
+* [Performance Benchmarking](performance.md)
 * [Bug Report Template](bug-template.md)
