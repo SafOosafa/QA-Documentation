@@ -1,0 +1,78 @@
+site_name: MITF Notifications Documentation
+site_url: ""
+site_description: Documentation for MITF Notifications Generator System
+site_author: MITF Team
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Procedures:
+    - procedures/index.md
+    - procedures/structure-management.md
+    - procedures/notifications.md
+    - procedures/sender.md
+    - procedures/survey.md
+    - procedures/review.md
+    - procedures/operations.md
+    - procedures/images.md
+    - procedures/lists.md
+    - procedures/user-management.md
+  - API Reference:
+    - api/index.md
+    - api/structure-management.md
+    - api/notifications.md
+    - api/sender.md
+    - api/bulk-send.md
+    - api/survey.md
+    - api/review.md
+    - api/user-management.md
+    - api/testing.md
+  - Database Reference:
+    - database/index.md
+  - Configuration:
+    - configuration/index.md
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/anstwechy/mitf_notifications_docs
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - tables
+  - toc:
+      permalink: true
